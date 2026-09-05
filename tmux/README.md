@@ -24,7 +24,7 @@ Configuracao personalizada do Tmux voltada para produtividade, divisao rapida de
 
 O prefixo padrao (Ctrl + b) foi substituido por `Alt + v`.
 
-* `<Prefixo> + |` : Divide a janela verticalmente.
+* `<Prefixo> + _` : Divide a janela verticalmente.
 * `<Prefixo> + -` : Divide a janela horizontalmente.
 * `<Prefixo> + Ctrl + s` : Salva o estado atual das sessoes manualmente.
 * `<Prefixo> + Ctrl + r` : Restaura o ultimo estado salvo manualmente.
