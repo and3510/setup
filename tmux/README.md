@@ -29,9 +29,6 @@ O prefixo padrao (Ctrl + b) foi substituido por `Alt + v`.
 * `<Prefixo> + Ctrl + s` : Salva o estado atual das sessoes manualmente.
 * `<Prefixo> + Ctrl + r` : Restaura o ultimo estado salvo manualmente.
 * `<Prefixo> + r` : Recarrega o arquivo de configuracao (`.tmux.conf`) instantaneamente.
-* `<Prefixo> + S` : Ativa/desativa a sincronizacao de paineis (permite digitar em todos os paineis abertos ao mesmo tempo).
-* Mouse: Habilitado para rolagem de tela, selecao e redimensionamento de paineis. Copia integrada com a area de transferencia do sistema via tmux-yank.
-* Modo Copia: Atalhos do Vim (H, J, K, L) ativados para navegacao. O comportamento padrao do mouse arrastar e cancelar selecao foi corrigido.
 
 ## Salvamento e Restauracao Automatica
 
