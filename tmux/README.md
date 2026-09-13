@@ -12,7 +12,7 @@ Configuracao personalizada do Tmux voltada para produtividade, divisao rapida de
 
 2. Clonar o gerenciador de plugins (TPM):
    ```bash
-   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+   git clone [https://github.com/tmux-plugins/tpm](https://github.com/tmux-plugins/tpm) ~/.tmux/plugins/tpm
    ```
 
 3. Instalar os plugins:
@@ -28,7 +28,15 @@ O prefixo padrao (Ctrl + b) foi substituido por `Alt + v`.
 * `<Prefixo> + -` : Divide a janela horizontalmente.
 * `<Prefixo> + Ctrl + s` : Salva o estado atual das sessoes manualmente.
 * `<Prefixo> + Ctrl + r` : Restaura o ultimo estado salvo manualmente.
+* `<Prefixo> + r` : Recarrega o arquivo de configuracao (`.tmux.conf`) instantaneamente.
+* `<Prefixo> + S` : Ativa/desativa a sincronizacao de paineis (permite digitar em todos os paineis abertos ao mesmo tempo).
 * Mouse: Habilitado para rolagem de tela, selecao e redimensionamento de paineis. Copia integrada com a area de transferencia do sistema via tmux-yank.
+* Modo Copia: Atalhos do Vim (H, J, K, L) ativados para navegacao. O comportamento padrao do mouse arrastar e cancelar selecao foi corrigido.
+
+## Salvamento e Restauracao Automatica
+
+* Salvamento Automatico: O plugin `tmux-continuum` esta configurado para salvar o estado das sessoes em background a cada 15 minutos.
+* Restauracao Automatica: O `tmux-continuum` tentara restaurar sua ultima sessao salva automaticamente sempre que o servidor do tmux for iniciado.
 
 ## Registro de Aprendizados
 
